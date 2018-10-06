@@ -10,12 +10,17 @@ const book = {
 const pagePrinter = () => {
     let newString = `<div>
                     <h3>${book.name}</h3>
-                    <img src="${book.img}" alt="${book.name} by ${book.author}"/>
+                    <img src="${book.img}" alt="${book.name} by ${book.author}" id="${book.name}"/>
                     <p>Author ${book.author}</p>
                     <p>Price: ${book.price}</p>
-                    <button id="purchase"></button>
+                    <button id="purchase">Add to Cart</button>
                 </div>`;
     utilities.printToDom('printHere', newString);
+    utilities.cartAddEvent()
 };
 
-export default {pagePrinter}
+const giveBook = () => {
+    return book;
+};
+
+export default {pagePrinter, giveBook}
