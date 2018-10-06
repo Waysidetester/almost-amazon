@@ -1,5 +1,8 @@
 # almost-amazon
-
+### Home Page
+![Main View](./imgs/homePic.PNG)
+### Cliked view
+![Clicked](./imgs/clicked.PNG)
 ## Purpose
 The purpose of this project was a simple data structure file. We wanted to export functions from multiple JS files and import them into other functions for portability. The objective was to place an single item into a theoretical cart for the user to purchase down the line.
 
