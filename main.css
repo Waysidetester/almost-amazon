@@ -1,3 +1,33 @@
 body {
     background-color: aliceblue;
 }
+
+#Prey {
+    width: 100px;
+    height: auto;
+}
+
+#cartImage {
+    width: 100px;
+    height: auto;
+    z-index: 10;
+}
+
+#overlay {
+    position: relative;
+}
+
+#absoluter {
+    position: absolute;
+    padding: 5px 10px;
+    top: 0;
+    right: 0;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+#cart {
+    display: flex;
+    justify-content: right;
+}
